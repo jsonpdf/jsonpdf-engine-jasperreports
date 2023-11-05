@@ -2,16 +2,16 @@
 
 ## Usage
 
-Install requirements
+Build the image
 
 ```sh
-pip install -r requirements.txt
+docker build -t jsonpdf-engine-jasperreports .
 ```
 
-Run FastAPI
+Run a container
 
 ```sh
-uvicorn main:app --reload
+docker run -p 8080:8080 jsonpdf-engine-jasperreports
 ```
 
 ## Development
