@@ -1,5 +1,19 @@
 # jsonpdf-engine-jasperreports
 
+## Usage
+
+Install requirements
+
+```sh
+pip install -r requirements.txt
+```
+
+Run FastAPI
+
+```sh
+uvicorn main:app --reload
+```
+
 ## Development
 
 Create Python virtual environment
